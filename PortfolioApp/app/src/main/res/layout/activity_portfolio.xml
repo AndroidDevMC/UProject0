@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/portfolio_horizontal_margin"
+    android:paddingRight="@dimen/portfolio_horizontal_margin"
+    android:paddingTop="@dimen/portfolio_vertical_margin"
+    android:paddingBottom="@dimen/portfolio_vertical_margin"
+    tools:context=".PortfolioActivity">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_portTitle"
+            android:textSize="30sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btnProj1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:textColor="#E8EAF6"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/btn_proj1"
+            />
+
+        <Button
+            android:id="@+id/btnProj2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:textColor="#E8EAF6"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/btn_proj2"/>
+
+        <Button
+            android:id="@+id/btnProj3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:textColor="#E8EAF6"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/btn_proj3"/>
+
+        <Button
+            android:id="@+id/btnProj4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:textColor="#E8EAF6"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/btn_proj4"/>
+
+        <Button
+            android:id="@+id/btnProj5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:textColor="#E8EAF6"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/btn_proj5"/>
+    </LinearLayout>
+</RelativeLayout>
